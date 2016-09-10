@@ -118,7 +118,7 @@ endfunction
 if exists("did_javascript_hilink")
 	HiLink javaScriptEndColons              Operator
 	HiLink javaScriptOpSymbols              Operator
-	HiLink javaScriptLogicSymbols           Boolean
+	HiLink javaScriptLogicSymbols           Operator
 	HiLink javaScriptBraces                 Function
 	HiLink javaScriptParens                 Operator
 
