@@ -58,7 +58,7 @@ syntax region  javascriptTemplateSubstitution matchgroup=javascriptTemplateSB co
 
 syntax match   javaScriptSpecialCharacter "'\\.'"
 syntax match   javaScriptNumber           "-\=\<\d\+L\=\>\|0[xX][0-9a-fA-F]\+\>"
-syntax region  javaScriptRegexpString     start=+/[^/*]+me=e-1 skip=+\\\\\|\\/+ end=+/[gim]\{0,2\}\s*$+ end=+/[gim]\{0,2\}\s*[;.,)\]}]+me=e-1 contains=@htmlPreproc oneline
+syntax region  javaScriptRegexpString     start=+/[^/*]+me=e-1 skip=+\\\\\|\\/+ end=+/[gim]\{0,3\}\s*$+ end=+/[gim]\{0,3\}\s*[;.,)\]}]+me=e-1 contains=@htmlPreproc oneline
 syntax match   javaScriptFloat            /\<-\=\%(\d\+\.\d\+\|\d\+\.\|\.\d\+\)\%([eE][+-]\=\d\+\)\=\>/
 syntax match   javascriptDollar           "\$"
 
