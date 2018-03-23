@@ -193,10 +193,6 @@ if exists("did_javascript_hilink")
 	HiLink javaScriptFuncEq                 Operator
 
 	HiLink javaScriptHtmlEvents             Constant
-	HiLink javaScriptHtmlElemProperties     Label
-
-	HiLink javaScriptEventListenerKeywords  Type
-
 	HiLink javaScriptPropietaryObjects      Constant
 
 	delcommand HiLink
